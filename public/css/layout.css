@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: white;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,10 +207,17 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 70px;
+   height: 70px;
    border-radius: 100%;
 }
+
+.pfp {
+   height: 250x;
+   width: 250px;
+   display: inline-block;
+}
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -546,13 +553,13 @@ ul#nav li.current a { color: #F06000; }
    text-align: left;
 }
 .popup-modal .link-box a {
-   color: #fff;
+   color: rgb(112, 22, 22);
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: ##5e7dad; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 

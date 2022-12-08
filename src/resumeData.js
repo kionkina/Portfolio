@@ -1,14 +1,15 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "name": "Karina Ionkina",
+    "role": "full stack developer, artist and musician (self-proclaimed)",
+    "job": "SWE @ Bloomberg",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " In my free time, I like learning about new technologies in the open source world and playing with instruments (and my cat Beaux).",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/karina-ionkina/",
           "className":"fa fa-linkedin"
         },
         {
