@@ -49,6 +49,10 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+#about {
+      background-color: #ebeeee;
+}
+
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -171,7 +175,6 @@
       margin: 0 auto; 
       padding: 0 4%;           
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 
    }
   

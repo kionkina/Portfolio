@@ -24,12 +24,12 @@ export default class Header extends Component {
             <div className="banner-text">
             <div className="pfp">
 
-<img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+{/* <img className="profile-pic"  src="images/profilepic.jpg" alt="" /> */}
             
 
 </div>
 <div class="hello-world" >
-               <div className="responsive-headline" style={{ textShadow: 'None', color:'#2B2B2B', fontFamily:'opensans-regular', fontSize: '50px', margin:'2px' }}> {resumeData.name}</div>
+               <div className="responsive-headline" style={{ textShadow: 'None', color:'#2B2B2B', fontFamily:'opensans-regular', fontSize: '50px', margin:'2px' }}> {resumeData.name}</div> 
                <div className="responsive-headline" style={{ textShadow: 'None', color:'#2B2B2B', fontFamily:'opensans-regular', fontStyle:'Italic'}}> {resumeData.job}</div>
                
                <ul className="social">
@@ -46,7 +46,6 @@ export default class Header extends Component {
                </ul>
                <h3 style={{color:'#2B2B2B', fontFamily:'opensans-light', textShadow: "none"}}>I am a {resumeData.role}.{resumeData.roleDescription}
 </h3>
-<img src="images/cat3.jpg" style={{ width:'250px', height:'290px', textShadow: "none", position: "relative", translate:'50px'}} alt="" /> 
 </div>
 
 
